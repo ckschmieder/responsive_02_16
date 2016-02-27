@@ -1,0 +1,30 @@
+{
+  "name": "Responsive_02_16",
+  "version": "0.1.0",
+  "description": "A New Responsive Website",
+  "main": "index.js",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckschmieder/responsive_02_16.git"
+  },
+  "author": "Chris Schmieder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com//ckschmieder/responsive_02_16/issues"
+  },
+  "homepage": "https://github.com/ckschmieder/responsive_02_16",
+  "dependencies": {
+    "imagesloaded": "^4.0.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "node-sass": "^3.4.2"
+  }
+}
