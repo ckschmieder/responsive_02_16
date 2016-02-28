@@ -87,6 +87,7 @@ header {
 		background-size: contain;
 		top: 15px;
 		left: 20px;
+		z-index: 1;
 
 		span {
 			display: none;
@@ -271,6 +272,29 @@ section.how-to {
 	}
 
 }
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+nav {
+	background-color: rgba(0,0,0,.65);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 50px 0 0 0;
+	width: 100%;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
