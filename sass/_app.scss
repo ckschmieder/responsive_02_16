@@ -113,8 +113,14 @@ header {
 
 section {
 	padding: 0 30px;
-} 
+}
 
+// Clear for all sections
+section::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 
 /*--------------------------------------------------------------
 # Section - Main
@@ -130,4 +136,33 @@ section.main {
 		float: left;
 		text-align: center;
 	}
-}
+
+	.content {
+		margin: 15px;
+		background: no-repeat center top;
+		background-size: 75px 75px;
+		padding-top: 85px;
+
+		h3 {
+			a {
+				color: #000;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.content.trending {
+		background-image: url(../images/icon_star.svg);
+	}
+	.content.find-it {
+		background-image: url(../images/icon_marker.svg);
+	}
+	.content.tools {
+		background-image: url(../images/icon_gear.svg);
+	}
+
+	
+}  
