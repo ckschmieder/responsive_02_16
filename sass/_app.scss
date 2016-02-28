@@ -271,3 +271,29 @@ section.how-to {
 	}
 
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer {
+	font-size: .8em;
+	margin: 40px;
+	color: #999;
+
+	.content {
+		display: inline;	
+
+		a {
+			margin-left: 30px;
+			color: #777;
+		}
+		a:visited {
+			color: #777;
+		}	
+		a:hover {
+			color: #000;
+		}	
+	}
+
+}
